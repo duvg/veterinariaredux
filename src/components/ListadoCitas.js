@@ -7,6 +7,7 @@ const ListadoCitas = () => {
     // Obtener las citas del State
     const citas = useSelector((state) => state.citas); 
 
+
     // Mensaje condicional
     const mensaje = Object.keys(citas.citas).length  === 0 ? 'No hay citas' : 'Administra las citas aqui';
     console.log(citas);
