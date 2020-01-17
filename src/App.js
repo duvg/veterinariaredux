@@ -4,6 +4,9 @@ import React from 'react';
 import store from './store';
 import { Provider } from 'react-redux';
 
+// Components
+import AgregarCita from './components/AgregarCita';
+
 
 function App() {
   return (
@@ -16,7 +19,7 @@ function App() {
         </header>
         <div className="row mt-3">
           <div className="col-md-6">
-            Formulario aqui
+            <AgregarCita />
           </div>
           <div className="col-md-6">
             Listado de citas aqui
