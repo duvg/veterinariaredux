@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 
 // Components
 import AgregarCita from './components/AgregarCita';
+import ListadoCitas from './components/ListadoCitas';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
             <AgregarCita />
           </div>
           <div className="col-md-6">
-            Listado de citas aqui
+            <ListadoCitas />
           </div>
         </div>
       </div>

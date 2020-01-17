@@ -22,7 +22,6 @@ const AgregarCita = () => {
     // useSelector
     const error = useSelector( ( state ) => state.error);
 
-    console.log(error);
 
     // Envio del formulario
     const submitNuevaCita = e => {
